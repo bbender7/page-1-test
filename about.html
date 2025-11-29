@@ -1,4 +1,166 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-CA">
   <meta charset="UTF-8">
    <!-- ------------------------------------------------ -->
+  
+<head>
+  <style>
+  body {
+    margin: 0;
+    font-family: serif;
+    background: #0F0F0F;
+    color: #EDEDED;
+}
+
+/* --- NAV --- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #333;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-square {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #e0e0e0;
+}
+
+nav a {
+    color: #cfcfcf;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* --- HERO --- */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 70px;
+    line-height: 0.9;
+}
+
+.hero img {
+    width: 180px;
+    margin: 20px auto;
+    display: block;
+}
+
+.tagline {
+    margin-top: 10px;
+    color: #bbb;
+}
+
+/* --- BIO --- */
+.bio-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: #2B2724;
+}
+
+.bio-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.bio-text {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.resume-btn {
+    padding: 10px 20px;
+    background: #E0DED7;
+    color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* --- STACK --- */
+.stack {
+    padding: 60px 20px;
+    text-align: center;
+    background: #F0ECE8;
+    color: #000;
+}
+
+.stack h3 {
+    font-size: 32px;
+}
+
+.icons img {
+    width: 70px;
+    margin: 20px;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brooke Bender – Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-left">
+            <span class="logo-square"></span>
+            <p>Brooke<br>Bender</p>
+        </div>
+
+        <nav>
+            <a href="#">about</a>
+            <a href="#">projects</a>
+            <a href="#">contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>BROOKE<br>BENDER</h1>
+        <img src="your-image-here.jpg" alt="Portrait">
+        <p class="tagline">Obsessed with crafting work that feels like something.</p>
+    </section>
+
+    <section class="bio-section">
+        <h2>Obsessed with crafting work<br>that feels like something.</h2>
+
+        <p class="bio-text">
+            I'm a Global Business and Digital Arts student at the University of Waterloo,
+            always chasing work that matters. I gravitate toward photography, design, and 
+            branding — anything that lets me build stories people can feel. I’m obsessed with 
+            travel and the environment, and I’m constantly learning how I can make sustainability 
+            and marketing collide in the real world. With GBDA and my Environment, Sustainability 
+            and Resources minor, I’m finding my path where creativity meets impact.
+        </p>
+
+        <a class="resume-btn" href="#">View Resume PDF</a>
+    </section>
+
+    <section class="stack">
+        <h3>Software Stack</h3>
+
+        <div class="icons">
+            <img src="icon1.png" alt="">
+            <img src="icon2.png" alt="">
+            <img src="icon3.png" alt="">
+            <img src="icon4.png" alt="">
+            <img src="icon5.png" alt="">
+            <img src="icon6.png" alt="">
+            <img src="icon7.png" alt="">
+        </div>
+    </section>
+
+</body>
+</html>
